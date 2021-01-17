@@ -13,10 +13,15 @@ scanmap 是通过2D激光数据和里程计信息进行栅格建图的工具包
 
 '''
 $ git clone https://github.com/RRTS-bug/scanmap.git
+
 $ cd scanmap
+
 $ catkin_make
+
 $ source devel/setup.bash
+
 $ cd src
+
 $ roslaunch scan scanRun.launch
 '''
 
