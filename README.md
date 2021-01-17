@@ -1,5 +1,4 @@
 # scanmap 
-# bulid-passing-brightgreen.svg
 
 scanmap 是通过2D激光数据和里程计信息进行栅格建图的工具包
 
