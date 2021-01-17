@@ -1,0 +1,30 @@
+<launch>
+  <arg name="topic1"    default = "/front/scan"/>
+
+  <arg name="topic2" default = "/odometry/filtered" />
+  
+  <node pkg = "scan" type = "mapGen.py" name="globalmap"/>
+
+     <param name="sensorAngleMax" type="double" value=" 2.35619" />
+
+     <param name="sensorAngleMin" type="double" value="-2.35619" />
+
+     <param name="sensorAngleReso" type="double" value="0.01745319" />
+
+     <param name="followAngleS" type="double" value="-2.35619" />
+
+     <param name="followAngleE" type="double" value=" 2.35619" />
+
+     <param name="adjacentRange" type="double" value="30.0" />
+
+     <param name="mapGridSize" type="double" value="0.02" />
+
+     <param name="gridNumThres" type="int" value="3" />
+
+     <param name="mapType" type="int" value="1" />
+
+     <param name="scan_topic"    value ="$(arg topic1)"/>
+
+     <param name="odom_topic" value ="$(arg topic2)"/>
+
+</launch>

@@ -1,0 +1,2 @@
+scan
+-DCATKIN_DEVEL_PREFIX=/home/czp/scan_ws/devel -DCMAKE_INSTALL_PREFIX=/home/czp/scan_ws/install -G Unix Makefiles
