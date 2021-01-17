@@ -1,5 +1,5 @@
 # scanmap 
-# [![Build Status](https://img.shields.io/badge/bulid-passing-brightgreen.svg)](https://github.com/RRTS-bug/scanmap)
+# [!(https://img.shields.io/badge/bulid-passing-brightgreen.svg)](https://github.com/RRTS-bug/scanmap)
 
 scanmap 是通过2D激光数据和里程计信息进行栅格建图的工具包
 
