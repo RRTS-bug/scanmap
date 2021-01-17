@@ -1,5 +1,5 @@
 # scanmap ![CI status]
-(https://img.sheilds.io/badge/bulid-python-ros-brightgreen.svg)
+(https://img.shields.io/badge/bulid-python-ros-brightgreen.svg)
 
 scanmap 是通过2D激光数据和里程计信息进行栅格建图的工具包
 
@@ -12,7 +12,7 @@ scanmap 是通过2D激光数据和里程计信息进行栅格建图的工具包
 
 ## Usage -用法
 
-‘’‘
+'''
 $ git clone https://github.com/RRTS-bug/scanmap.git
 $ cd scanmap
 $ catkin_make
