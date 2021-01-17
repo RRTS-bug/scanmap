@@ -20,4 +20,5 @@ $ source devel/setup.bash
 $ cd src
 $ roslaunch scan scanRun.launch
 '''
+
 通过launch文件修改参数和话题，建图方法详见docx文件
